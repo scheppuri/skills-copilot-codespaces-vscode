@@ -10,5 +10,5 @@ http.createServer(function(req, res) {
         name: 'John',
         age: 30
     };
-    res.end(JSON.stringify(obj));
-}).listen(1337, '
+});
+   
